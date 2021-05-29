@@ -4,9 +4,9 @@ __created__ = "2018-7-19"
 
 import os
 import subprocess
-from AutoGTAP.SimulationCMF.SimulationCMF import SimulationCMF
-from AutoGTAP.CreateMAP.CreateMAP import CreateMAP
-from AutoGTAP.CreateSTI.CreateSTI import CreateSTI
+from src.AutoGTAP.SimulationCMF import SimulationCMF
+from src.AutoGTAP.CreateMAP import CreateMAP
+from src.AutoGTAP.CreateSTI import CreateSTI
 
 
 class GtapModel(object):

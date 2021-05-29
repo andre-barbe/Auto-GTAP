@@ -3,10 +3,10 @@ __project__ = "Auto-GTAP"
 __created__ = "2018-7-19"
 
 import os
-from AutoGTAP.ImportCSV_SL4.ImportCsvSl4 import ImportCsvSl4
-from AutoGTAP.ModifyDatabase.ModifyDatabase import ModifyDatabase
-from AutoGTAP.ExportDictionary.ExportDictionary import ExportDictionary
-from AutoGTAP.CreateOutput.CreateOutput import CreateOutput
+from src.AutoGTAP.ImportCsvSl4 import ImportCsvSl4
+from src.AutoGTAP.ModifyDatabase import ModifyDatabase
+from src.AutoGTAP.ExportDictionary import ExportDictionary
+from src.AutoGTAP.CreateOutput import CreateOutput
 
 
 class ExportResults(object):

@@ -17,6 +17,6 @@ class SplitCommodities(object):
         work_directory = "WorkFiles\\" + self.simulation_name + "\\MSplitCom-Exe"
         os.chdir(work_directory)
         subprocess.call("msplitbat.bat")
-        os.chdir("..")
-        os.chdir("..")
-        os.chdir("..")
+        os.chdir("")
+        os.chdir("")
+        os.chdir("")

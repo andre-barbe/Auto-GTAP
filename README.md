@@ -15,6 +15,9 @@ Auto-GTAP combines all these tasks into a single automated framework. By reducin
 Mandatory
 - Python 3.6 (other versions untested)
 - Pyyaml 4.2b4 (other versions untested)
+- GEMPACK 12.1 Limited Executable-Image Version
+    - Other versions untested. [Download here](https://www.copsmodels.com/gpeidl.htm). You may have to reboot after installation.
+    - GEMPACK requires a license (licen.gem). You can use a GEMPACK license if you have one, but the download also comes with a free 6 month license.
 
 Additional requirements for GTAP-E Validation advanced example
 - GEMPACK 14.0 (other versions untested, [purchase information](https://www.copsmodels.com/gempack.htm))
@@ -44,9 +47,14 @@ python -m venv venv
 ```
 
 ### Running Auto-GTAP
-- Script path: ```Main.py```
-- Source root: ```src```
-- Working directory (depends on example): ```examples\productivity-increase-simple```
+- In PyCharm go to Run > Edit Configurations ...
+- Click "+"
+- Name your configuration "Main" and set the following settings:
+    - Script path: ```Main.py``` (not ```main.py```)
+    - Working directory. Depends on example. For example: ```examples\productivity-increase-simple```
+- Set Source root: ```src```
+    - File > Settings > Project: "Project Name" > Project Structure
+    - Click "src" and click "Sources"
 
 ### (Optional) For productivity increase advanced example
 

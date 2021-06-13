@@ -15,8 +15,9 @@ Auto-GTAP combines all these tasks into a single automated framework. By reducin
 Mandatory
 - Python 3.6 (other versions untested)
 - Pyyaml 4.2b4 (other versions untested)
-- GEMPACK 12.1 Limited Executable-Image Version
-    - Other versions untested. [Download here](https://www.copsmodels.com/gpeidl.htm). You may have to reboot after installation.
+- GEMPACK 12.1 Limited Executable-Image Version (other versions untested)
+    - You may have to reboot after installation.
+    - [Download here](https://www.copsmodels.com/gpeidl.htm).
     - GEMPACK requires a license (licen.gem). You can use a GEMPACK license if you have one, but the download also comes with a free 6 month license.
 
 Additional requirements for GTAP-E Validation advanced example
@@ -26,13 +27,17 @@ Additional requirements for Productivity Increase advanced example
 - GEMPACK 14.0 (other versions untested, [purchase information](https://www.copsmodels.com/gempack.htm))
 - GTAP Data File v10_2014 ([purchase information](https://www.gtap.agecon.purdue.edu/databases/default.asp))
  
-### Clone the repository 
+### Installation Instructions
  
+ - Install [GEMPACK Limited Executable](https://www.copsmodels.com/gpeidl.htm) and reboot
+ - Install [Python 3.6.3](https://www.python.org/downloads/release/python-363/)
+ - Install Pyyaml 4.2b4
+ **Where do I run this command? python console, cmd? in what directory?**
  ```bash
-cd your_project_directory
-
-git clone https://github.com/andre-barbe/Auto-GTAP.git
-```
+ pip install PyYAML==4.2b4
+ ```
+ - Clone the Repository
+**Insert instructions here for how to do so in PyCharm**
 
 ### Running Auto-GTAP
 - In PyCharm go to Run > Edit Configurations ...

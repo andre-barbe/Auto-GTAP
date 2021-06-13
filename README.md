@@ -34,23 +34,11 @@ cd your_project_directory
 git clone https://github.com/andre-barbe/Auto-GTAP.git
 ```
 
-### Create a Python virtual environment
- 
-```bash
-python -m venv venv 
-```
-
-### Activate the virtual environment
-
-```bash
-./venv/Scripts/activate
-```
-
 ### Running Auto-GTAP
 - In PyCharm go to Run > Edit Configurations ...
 - Click "+"
 - Name your configuration "Main" and set the following settings:
-    - Script path: ```Main.py``` (not ```main.py```)
+    - Script path: ```main.py```
     - Working directory. Depends on example. For example: ```examples\productivity-increase-simple```
 - Set Source root: ```src```
     - File > Settings > Project: "Project Name" > Project Structure
